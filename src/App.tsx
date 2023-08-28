@@ -14,7 +14,7 @@ function App() {
     
     // Extract result from the API response
     if (res.data.success){
-      console.log('res',res.data)
+      console.log('res',res)
       console.log('Valid');
     } else {
       console.log('res',res)
